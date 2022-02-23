@@ -13,7 +13,5 @@ public class Characters : MonoBehaviour {
 			attelaTuretajs.GetComponent<Image> ().sprite = charactersArr [0];
 		else if (skaitlis == 1)
 			attelaTuretajs.GetComponent<Image> ().sprite = charactersArr [1];
-		else if (skaitlis == 2)
-			attelaTuretajs.GetComponent<Image> ().sprite = charactersArr [2];
 	}
 }
