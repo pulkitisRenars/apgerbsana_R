@@ -14,19 +14,22 @@ public class Clothes : MonoBehaviour {
 	public GameObject shoes1;
 	public GameObject shoes2;
 
-	public void biksuP(){
-		bikses1.SetActive (true);
-		bikses2.SetActive (true);
+
+	public void biksuP(bool val){
+		bikses1.SetActive (val);
+		bikses2.SetActive (val);
 	}
 
-	public void topP(){
-		top1.SetActive (true);
-		top2.SetActive (true);
-		top3.SetActive (true);
+	public void topP(bool val){
+		top1.SetActive (val);
+		top2.SetActive (val);
+		top3.SetActive (val);
 	}
 
-	public void shoesP(){
-		shoes1.SetActive (true);
-		shoes2.SetActive (true);
+	public void shoesP(bool val){
+		shoes1.SetActive (val);
+		shoes2.SetActive (val);
 	}
+
+
 }

@@ -7,7 +7,6 @@ public class Characters : MonoBehaviour {
 	public Sprite[] charactersArr;
 	public GameObject attelaTuretajs;
 
-
 	public void izkritosais(int skaitlis){
 		if (skaitlis == 0)
 			attelaTuretajs.GetComponent<Image> ().sprite = charactersArr [0];
